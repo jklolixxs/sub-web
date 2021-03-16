@@ -198,22 +198,6 @@
                   icon="el-icon-connection"
                   :disabled="customSubUrl.length === 0"
                 >一键导入Clash</el-button>
-				</el-form-item>
-				<el-form-item label-width="0px" style="text-align: center">
-				<el-button
-                  style="width: 250px;"
-                  type="warning"
-                  icon="el-icon-video-play"
-                  @click="gotovideo"
-                >测速用视频</el-button>
-              </el-form-item>
-              <el-form-item label-width="0px" style="text-align: center">
-				<a href="https://telegra.ph/%E4%BB%A3%E7%90%86%E8%BD%AF%E4%BB%B6-01-16" style="text-decoration: none; color: #FFFFFF;">
-				<el-button
-                  style="width: 250px;"
-                  type="success"
-                  icon="el-icon-download"
-                >代理软件合集</el-button></a>
               </el-form-item>
             </el-form>
           </el-container>
@@ -358,9 +342,6 @@ export default {
           { value: "https://api.wcc.best/sub?" }
         ],
         remoteConfig: [
-          {
-            label: "通用",
-            options: [
           {
             label: "默认",
             options: [
@@ -522,41 +503,6 @@ export default {
                 label: "通用·流媒体多·无去广告",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Video_Plus_NoAdB.ini"
-              }
-            ]
-          },
-              {
-                label: "默认",
-                value: "https://raw.githubusercontent.com/limr95/webcdn/main/rule/no-urltest.ini"
-              },
-              {
-                label: "默认（自动测速）",
-                value: "https://raw.githubusercontent.com/limr95/webcdn/main/rule/urltest.ini"
-              },
-              {
-                label: "默认（分组超全）",
-                value: "https://raw.githubusercontent.com/limr95/webcdn/main/rule/Area_Media_NoAuto.ini"
-              },
-              {
-                label: "默认（分组超全+自动测速）",
-                value: "https://raw.githubusercontent.com/limr95/webcdn/main/rule/Area_Media.ini"
-              },
-              {
-                label: "默认（附带用于 Clash 的 AdGuard DNS）",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/default_with_clash_adg.yml"
-              }
-            ]
-          },
-          {
-            label: "Meilieage大神的规则",
-            options: [
-              {
-                label: "Meilieage_不带测速",
-                value: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini"
-              },
-              {
-                label: "Meilieage_带自动测速",
-                value: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media.ini"
               }
             ]
           },
