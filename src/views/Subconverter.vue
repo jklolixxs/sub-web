@@ -287,7 +287,6 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-         "usuc.cc":"https://usuc.cc/shorten",
          "suo.yt":"https://suo.yt/short",
          "sub.cm":"https://sub.cm/short",
          "v1.mk":"https://v1.mk/short",
@@ -861,7 +860,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: "https://azure.jkloli.top/sub?",
-        shortType: "https://usuc.cc/shorten",
+        shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Plus_NoAdB.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -947,6 +946,7 @@ export default {
         this.$message.error("请先填写必填项，生成订阅链接");
         return false;
       }
+
 
       const url = "surge://install-config?url=";
       window.open(url + this.customSubUrl);
