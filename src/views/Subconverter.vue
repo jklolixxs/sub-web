@@ -287,8 +287,8 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+         "sfw.rip":"https://sfw.rip/short",
          "usuc.cc":"https://usuc.cc/short",
-         "lmuu.ml":"https://lmuu.ml/short",
          "suo.yt":"https://suo.yt/short",
          "sub.cm":"https://sub.cm/short",
          "v1.mk":"https://v1.mk/short",
@@ -862,7 +862,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: "https://azure.jkloli.top/sub?",
-        shortType: "https://usuc.cc/short",
+        shortType: "https://sfw.rip/short",
         remoteConfig: "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Plus_NoAdB.ini",
         excludeRemarks: "",
         includeRemarks: "",
