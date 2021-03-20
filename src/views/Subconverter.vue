@@ -288,7 +288,6 @@ export default {
         },
         shortTypes: {
          "sfw.rip":"https://sfw.rip/short",
-         "usuc.cc":"https://usuc.cc/short",
          "suo.yt":"https://suo.yt/short",
          "sub.cm":"https://sub.cm/short",
          "v1.mk":"https://v1.mk/short",
