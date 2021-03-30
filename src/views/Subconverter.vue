@@ -296,7 +296,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "自建(蛮快的速度)":
+          "azure.jkloli.top(jklolixxs提供)":
             "https://azure.jkloli.top/sub?",
           "sub.lryu4.com(厘米云)":
             "https://sub.lryu4.com/sub?",
