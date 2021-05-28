@@ -451,6 +451,11 @@ export default {
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback.ini"
               },
               {
+                label: "通用·全面·故障转移-分组",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback_Group.ini"
+              },
+              {
                 label: "通用·全面·故障转移·无去广告",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback_NoAdB.ini"
@@ -461,6 +466,11 @@ export default {
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest.ini"
               },
               {
+                label: "通用·全面·自动选择-分组",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest_Group.ini"
+              },
+              {
                 label: "通用·全面·自动选择·无去广告",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest_NoAdB.ini"
@@ -469,6 +479,11 @@ export default {
                 label: "通用·全面·负载均衡",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Loadbalance.ini"
+              },
+              {
+                label: "通用·全面·负载均衡-分组",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Loadbalance_Group.ini"
               },
               {
                 label: "通用·全面·负载均衡·无去广告",
