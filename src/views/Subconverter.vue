@@ -461,6 +461,11 @@ export default {
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback_NoAdB.ini"
               },
               {
+                label: "通用·全面·故障转移+自动选择-懒人",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback_Lazy.ini"
+              },
+              {
                 label: "通用·全面·自动选择",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest.ini"
@@ -476,6 +481,11 @@ export default {
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest_NoAdB.ini"
               },
               {
+                label: "通用·全面·自动选择+自动选择-懒人",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Urltest_Lazy.ini"
+              },
+              {
                 label: "通用·全面·负载均衡",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Loadbalance.ini"
@@ -489,6 +499,11 @@ export default {
                 label: "通用·全面·负载均衡·无去广告",
                 value:
                   "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Loadbalance_NoAdB.ini"
+              },
+              {
+                label: "通用·全面·负载均衡+自动选择-懒人",
+                value:
+                  "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Loadbalance_Lazy.ini"
               },
               {
                 label: "通用·全面",
