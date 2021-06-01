@@ -321,9 +321,9 @@ export default {
           "subconverter.herokuapp.com(subconverter作者提供3-稳定)":
             "https://subconverter.herokuapp.com/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
-          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?"
+          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
           "azure.jkloli.top(啥比提供)":
-            "https://azure.jkloli.top/sub?",
+            "https://azure.jkloli.top/sub?"
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
@@ -339,8 +339,8 @@ export default {
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
           { value: "https://subconverter.herokuapp.com/sub?" },
-          { value: "https://api.wcc.best/sub?" }
-          { value: "https://azure.jkloli.top/sub?" },
+          { value: "https://api.wcc.best/sub?" },
+          { value: "https://azure.jkloli.top/sub?" }
         ],
         remoteConfig: [
           {
