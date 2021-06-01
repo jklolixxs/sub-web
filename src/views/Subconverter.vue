@@ -287,20 +287,18 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-         "sfw.rip":"https://sfw.rip/short",
          "suo.yt":"https://suo.yt/short",
          "sub.cm":"https://sub.cm/short",
          "v1.mk":"https://v1.mk/short",
          "d1.mk":"https://d1.mk/short",
          "dlj.tf":"https://dlj.tf/short",
+         "sfw.rip":"https://sfw.rip/short",
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "azure.jkloli.top(jklolixxs提供)":
-            "https://azure.jkloli.top/sub?",
           "sub.lryu4.com(厘米云)":
             "https://sub.lryu4.com/sub?",
-          "www.nameless13.com(w8ves)":
+          "www.nameless13.com":
             "https://www.nameless13.com/sub?",
           "api.ytoo-163cdn.com(ytoo)":
             "https://api.ytoo-163cdn.com/sub?",
@@ -324,10 +322,11 @@ export default {
             "https://subconverter.herokuapp.com/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?"
+          "azure.jkloli.top(啥比提供)":
+            "https://azure.jkloli.top/sub?",
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://azure.jkloli.top/sub?" },
           { value: "https://sub.lryu4.com/sub?" },
           { value: "https://www.nameless13.com/sub?" },
           { value: "https://api.ytoo-163cdn.com/sub?" },
@@ -341,6 +340,7 @@ export default {
           { value: "https://subconverter-web.now.sh/sub?" },
           { value: "https://subconverter.herokuapp.com/sub?" },
           { value: "https://api.wcc.best/sub?" }
+          { value: "https://azure.jkloli.top/sub?" },
         ],
         remoteConfig: [
           {
@@ -890,9 +890,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://azure.jkloli.top/sub?",
-        shortType: "https://sfw.rip/short",
-        remoteConfig: "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Plus_NoAdB.ini",
+        customBackend: "https://subcon.dlj.tf/sub?",
+        shortType: "https://suo.yt/short",
+        remoteConfig: "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Fallback.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
